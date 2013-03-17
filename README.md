@@ -5,8 +5,7 @@ Put MP3s on an interactive map
 
 Code by [Dan Phiffer](http://phiffer.org/), example audio by [Ellie Irons](http://ellieirons.com/)
 
-Powered by
---------------------------------
+#### Powered by ####
 
 * mapbox.js JavaScript API
 * SoundManager 2 sound API
@@ -16,7 +15,7 @@ Powered by
 Customize the template
 --------------------------------
 
-#### `sound_map.js` ####
+#### Edit sound_map.js ####
 
 Set your map's center point and zoom.
 
@@ -44,7 +43,7 @@ markers.add_feature({
 });
 ```
 
-#### `sound_map.css` ####
+#### Edit sound_map.css ####
 
 Tweak the CSS if your icon images aren't 32x37 pixels.
 
