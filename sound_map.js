@@ -1,10 +1,10 @@
+// A simplified wrapper library for SoundManager 2
+//   See: http://www.schillmania.com/projects/soundmanager2/
+//   And also: https://github.com/dphiffer/sm2/
+sm2.initialize();
+
 window.addEventListener('load', function() {
     
-  // A simplified wrapper library for SoundManager 2
-  //   See: http://www.schillmania.com/projects/soundmanager2/
-  //   And also: https://github.com/dphiffer/sm2/
-  sm2.initialize();
-  
   // Setup the map
   //   See: http://mapbox.com/mapbox.js/examples/
   var map = mapbox.map('map');
