@@ -1,7 +1,10 @@
 // A simplified wrapper library for SoundManager 2
 //   See: http://www.schillmania.com/projects/soundmanager2/
 //   And also: https://github.com/dphiffer/sm2/
-sm2.initialize();
+sm2.initialize({
+ useHTML5Audio: true,
+ preferFlash: false
+});
 
 window.addEventListener('load', function() {
     
